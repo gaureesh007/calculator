@@ -1,0 +1,80 @@
+:root {
+  --Dark_Navy: #0f172a;
+  --Electric_Purple: #7f5af0;
+  --Neon_Cyan: #2cb67d;
+  --Soft_Gray: #94a1b2;
+  --Void_Black: #16161a;
+
+  --font1: "Heebo", sans-serif;
+  --font2: "Bebas Neue", sans-serif;
+  --font3: "Noto Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  background: rgba(0, 0, 0, 1);
+}
+body img.background {
+  width: 100vw;
+  position: absolute;
+  height: 100vh;
+  opacity: 0.6;
+}
+body img.background_mob {
+  width: 100vw;
+  position: absolute;
+  height: 100vh;
+  opacity: 0.6;
+}
+.flex {
+  display: flex;
+}
+div.logo img {
+  width: 60px;
+  height: 60px;
+}
+div.logo {
+  margin: 0px 30px;
+}
+nav.flex {
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100px;
+  overflow-x: hidden;
+  align-items: center;
+  color: var(--off-white);
+}
+nav div.menu {
+  width: 800px;
+  justify-content: space-evenly;
+  font-family: monospace;
+}
+nav div.menu .ham_menu img{
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+nav div.menu h4 {
+  width: fit-content;
+  font-size: 25px;
+  font-weight: 200;
+  padding: 15px 30px;
+  margin: 0px 20px;
+  color: rgb(255, 255, 255);
+}
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}

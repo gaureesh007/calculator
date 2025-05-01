@@ -1,0 +1,73 @@
+button{
+    font-family:monospace ;
+    font-size: 30px;
+    color: white;
+    
+}
+.cal{
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+div.normal_buttons{
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: auto;
+}
+div.numbers_button{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+button.num{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    
+}
+div.opr_button ,div.func_button, div.numbers_button{
+    align-items: center;
+    justify-items: center;
+}
+div.opr_button{
+    display: grid;
+    grid-template-columns: 200px ;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+button.opr{
+    width: 120px;
+    height: 60px;
+    padding: 10px;
+}
+div.func_button{
+    display: grid;
+    grid-template-columns: 200px 100px 100px 100px;
+    grid-template-rows: 100px;
+}
+button.func{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+button.equal{
+    width: 120px;
+    height: 60px;
+}
+
+.normal_cal div.display{
+    width: 440px;
+    height: 100px;
+    margin: 20px 10px;
+    justify-self: center;
+}
+.normal_cal div.display .display_box {
+    height: 80px;
+    width: 400px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+}

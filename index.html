@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Calculator - Make your Journey of maths eaisier and fun with us
+    </title>
+    <link rel="shortcut icon" href="images/calc_fav.png" type="image/x-icon" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="media_queries.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+  </head>
+  <body>
+    <img class="background" src="images/bg_image.png" alt="">
+    <img src="images/bg_image_mob.jpg" alt="" class="background_mob">
+    <header>
+      <nav class="flex">
+        <div class="logo flex glass">
+          <img src="images/calc_fav.png" alt="" />
+        </div>
+        <div class="menu flex">
+          <div><h4 class="none glass">Home</h4></div>
+          <div><h4 class="none glass">Conversions</h4></div>
+          <div><h4 class="none glass">Normal</h4></div>
+          <div><h4 class="none glass">Scientific</h4></div>
+          <div class="ham_menu glass"><img src="images/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="cal flex">
+        <div class="extra_button"></div>
+        <div class="normal_cal">
+          <div class="display">
+              <input type="text" value="" class="glass display_box" id="input_box">
+              <div class="previous"></div>
+              <div class="equation"></div>
+          </div>
+          <div class="normal_buttons">
+            <div class="opr_button">
+              <button class="opr glass">*</button>
+              <button class="opr glass">/</button>
+              <button class="opr glass">+</button>
+              <button class="opr glass">-</button>
+            </div>
+            <div class="numbers_button">
+              <button class="num glass">1</button>
+              <button class="num glass">2</button>
+              <button class="num glass">3</button>
+              <button class="num glass">4</button>
+              <button class="num glass">5</button>
+              <button class="num glass">6</button>
+              <button class="num glass">7</button>
+              <button class="num glass">8</button>
+              <button class="num glass">9</button>
+              <button class="num glass">0</button>
+              <button class="num glass">00</button>
+              <button class="num glass">.</button>
+            </div>
+            <div class="func_button">
+              <button class="equal glass">=</button>
+                <button class="func glass">AC</button>
+                <button class="func glass">C</button>
+                <button class="func glass">DE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
