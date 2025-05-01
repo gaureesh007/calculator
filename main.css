@@ -39,6 +39,8 @@ button.opr{
     width: 120px;
     height: 60px;
     padding: 10px;
+    color: green;
+
 }
 div.func_button{
     display: grid;
@@ -49,6 +51,7 @@ button.func{
     width: 60px;
     height: 60px;
     padding: 10px;
+    color: orangered;
 }
 button.equal{
     width: 120px;
