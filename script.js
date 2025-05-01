@@ -34,7 +34,7 @@ arr.forEach(button =>{
         e.preventDefault();
         button.classList.add('animate');
         setTimeout(()=>{
-
+            button.classList.remove('animate')
         },500)
     })
 })
